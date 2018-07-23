@@ -1,8 +1,12 @@
-﻿using System;
+﻿using Neo.SmartContract.Framework.Services.Neo;
 
-namespace NEOLottery
+namespace Neo.SmartContract
 {
-    public class Class1
+    public class HelloWorld : Framework.SmartContract
     {
+        public static void Main()
+        {
+            Storage.Put(Storage.CurrentContext, "Hello", "World");
+        }
     }
 }
