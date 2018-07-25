@@ -1,13 +1,13 @@
-# neogame
-NEO Blockchain game dev competition
+# A Blockchain Lottery with TRUE Randomness
+For NEO Blockchain game dev competition
 
 Decentralized Lottery
 
-Abstract
+## Abstract
 
 Lottery is just a proof of concept of decentralized randomness. This system will take place in two rounds and ensure the winner is chosen completely at random. 
 
-Set Up
+## Set Up
 
 To play the lottery, a user needs to have a wallet containing Neo GAS.
 
