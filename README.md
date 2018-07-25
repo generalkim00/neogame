@@ -15,7 +15,7 @@ First Round
 
 User will fill out a form with 3 pieces of data:
 
-Pick a number of 1 byte (0-255).
+Pick a number of 4 bytes or less (1 - 4,294,967,296)
 Amount of GAS required for the total number of entry tickets they wish to purchase
 Their public key.
 
