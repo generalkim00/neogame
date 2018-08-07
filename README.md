@@ -6,6 +6,7 @@ Decentralized Lottery
 ## Abstract
 
 Conventionally, dapp relies on the the future block hash for randomness. This appoarch has already been questioned since the bookkeepers may potentially determine the random result by reordering transactions when generating new blocks, without breaking any rules. **This problem is especially serious in NEO, since we now only have four bookkeeper nodes**. 
+
 **This game provides a mechanism of generating genuine randomness**. We make a lottery as the proof of concept of such system and hopefully it can provide other NEO developers some inspiration. 
 
 This system will take place in two rounds and ensure the winner is chosen completely at random. The steps are:
