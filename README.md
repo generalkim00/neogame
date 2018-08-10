@@ -19,9 +19,11 @@ First Round
 
 User will fill out a form with 3 pieces of data:
 
-Pick a number of 4 bytes or less (1 - 4,294,967,296)
-Amount of GAS required for the total number of entry tickets they wish to purchase
-Their public key.
+1. Pick a number of 4 bytes or less (1 - 4,294,967,296)
+
+2. Amount of GAS required for the total number of entry tickets they wish to purchase
+
+3. Their public key.
 
 Once done, the user clicks “submit” and then needs to approve the transaction for the amount used to purchase the lottery ticket in their neo wallet client. 
 
@@ -33,11 +35,15 @@ The random number generated is referred to as the “Hidden Number”. The syste
 
 Then 5 pieces of information are submitted onto the chain. 
 
-Game ID
-Player’s public key (PK)
-Player’s picked number
-Amount of GAS paid
-Hash of Hidden Number
+1. Game ID
+
+2. Player’s public key (PK)
+
+3. Player’s picked number
+
+4. Amount of GAS paid
+
+5. Hash of Hidden Number
 
 Once the first round is completed, the system closes submission any new entries to the chain. No more lottery tickets will be sold. 
 
