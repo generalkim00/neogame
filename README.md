@@ -1,26 +1,28 @@
 # A Blockchain Lottery with TRUE Randomness
 For NEO Blockchain game dev competition
 
-#Decentralized Lottery
+## Decentralized Lottery
+
+Our lottery is different than other lottery systems as it is impossible to manipulate because no one knows the numbers entered, preventing one from rigging the outcome to select a winning number. This is possible by breaking the lottery into 2 parts. The first part users select a number and submit a hash of this number along with other data to the block chain using asymmetric encryption. Second, their selected numbers are submitted to the chain unencrypted and used to generate a winning number using an open source algorithm and randomness derived from user input. This process will be known as "Asymmentropy" as it uses "Asymmetric encryption" and the "Entropy" of user input for a truly random and decentralized selection process. 
 
 
-##Abstract
+### Abstract
 
-Conventionally, dapp relies on the the future block hash for randomness, which has already been questioned since the bookkeepers can determine the random result without breaking any rules by filtering and/or reordering transactions when generating new blocks. This problem is especially serious in NEO, since we now only have four bookkeeper nodes.
+Conventionally, Decentralized Applications (Dapps) rely on the the future block hash for randomness, which has already been questioned since the bookkeepers can determine the random result without breaking any rules by filtering and/or reordering transactions when generating new blocks. This problem is especially serious in NEO, since we now only have four bookkeeper nodes.
 This game provides a mechanism of generating genuine randomness. We make a lottery as the proof of concept of such system and hopefully it can provide other NEO developers some inspiration.
 This system will take place in two rounds and ensure the winner is chosen completely at random. The steps are:
 
-##Set Up
+### Set Up
 
 To play the lottery, a user needs to have a wallet containing Neo GAS.
 
-##First Round
+### First Round
 
 User will fill out a form with 3 pieces of data:
 
-Chosen number of 4 bytes (0 - 4,294,967,296).
-Amount of GAS required for the total number of entry tickets they wish to purchase
-Their public key.
+1. Chosen number of 4 bytes (0 - 4,294,967,296).
+2. Amount of GAS required for the total number of entry tickets they wish to purchase
+3. Public key.
 
 Once done, the user clicks “submit” and then needs to approve the transaction for the amount used to purchase the lottery ticket in their neo wallet client. The GAS will then be sent to a decentralized address through a smart contract. 
 
@@ -32,11 +34,11 @@ The random number generated is referred to as the “Hidden Number”. The syste
 
 The following 5 pieces of information are submitted onto the blockchain. 
 
-Game ID
-Player’s public key (PK)
-Player’s picked number
-Amount of GAS paid = tickets purchased.
-Hash of Hidden Number
+1. Game ID
+2. Player’s public key (PK)
+3. Player’s picked number
+4. Amount of GAS paid = tickets purchased.
+5. Hash of Hidden Number
 
 
 Once the first round is completed, the system closes submission any new entries to the chain. No more lottery tickets will be sold. 
@@ -45,19 +47,19 @@ Once the first round is completed, the system closes submission any new entries 
 
 
 
-##Second Round
+### Second Round
 
 All hidden numbers are posted to the chain from the user’s wallet with the following data:
 
-Game ID
-Hidden number
+1. Game ID
+2. Hidden number
 
 
 ![fig 2](https://user-images.githubusercontent.com/19856234/44312099-e670ca80-a3c0-11e8-9024-9bf28b99212c.PNG)
 
 
 
-##Determining the Winner
+### Determining the Winner
 
 This ensures the user remains anonymous. Then the average of all the hidden numbers is used to determine the winner of the lottery by matching the hidden number average with the winning picked number by a user.
 
@@ -70,7 +72,7 @@ Check(gameID, playerAddress, Matching Picked Number)
 
 
 
-##Conclusion
+### Conclusion
 
 The goal of this lottery is to run a completely decentralized system which creates randomness based on user submission. By leveraging the anonymity of the lottery numbers submitted, a system can perform a calculation on these numbers and determine the winner without any bias. 
 
