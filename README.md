@@ -42,9 +42,7 @@ Hash of Hidden Number
 
 Once the first round is completed, the system closes submission any new entries to the chain. No more lottery tickets will be sold. 
 
-Diagram illustrating processes of Decentralized Lottery, round 1
-
-
+![fig 1](https://user-images.githubusercontent.com/19856234/44312095-e40e7080-a3c0-11e8-8b8d-7bc91ff8b304.PNG)
 
 
 
@@ -56,8 +54,7 @@ Game ID
 Hidden number
 
 
-Diagram illustrating processes of Decentralized Lottery, round 2
-
+![fig 2](https://user-images.githubusercontent.com/19856234/44312099-e670ca80-a3c0-11e8-9024-9bf28b99212c.PNG)
 
 
 
@@ -68,8 +65,9 @@ This ensures the user remains anonymous. Then the average of all the hidden numb
 To match the number with the user, the winning number is hashed through the open algorithm, and if a user’s  Hash of Hidden Number matched, the proceeds of the lottery are sent to their public key submitted with their original entry. 
 
 Check(gameID, playerAddress, Matching Picked Number)
-Verifying the winner of the Decentralized Lotter in a decentralized fashion
 
+
+![fig 3](https://user-images.githubusercontent.com/19856234/44312100-ea9ce800-a3c0-11e8-9955-11e90d042a52.PNG)
 
 
 
