@@ -1,21 +1,20 @@
 # A Blockchain Lottery with TRUE Randomness
 For NEO Blockchain game dev competition
 
-Decentralized Lottery
+#Decentralized Lottery
 
-Decentralized Lottery
 
-Abstract
+##Abstract
 
 Conventionally, dapp relies on the the future block hash for randomness, which has already been questioned since the bookkeepers can determine the random result without breaking any rules by filtering and/or reordering transactions when generating new blocks. This problem is especially serious in NEO, since we now only have four bookkeeper nodes.
 This game provides a mechanism of generating genuine randomness. We make a lottery as the proof of concept of such system and hopefully it can provide other NEO developers some inspiration.
 This system will take place in two rounds and ensure the winner is chosen completely at random. The steps are:
 
-Set Up
+##Set Up
 
 To play the lottery, a user needs to have a wallet containing Neo GAS.
 
-First Round
+##First Round
 
 User will fill out a form with 3 pieces of data:
 
@@ -46,7 +45,7 @@ Once the first round is completed, the system closes submission any new entries 
 
 
 
-Second Round
+##Second Round
 
 All hidden numbers are posted to the chain from the user’s wallet with the following data:
 
@@ -58,7 +57,7 @@ Hidden number
 
 
 
-Determining the Winner
+##Determining the Winner
 
 This ensures the user remains anonymous. Then the average of all the hidden numbers is used to determine the winner of the lottery by matching the hidden number average with the winning picked number by a user.
 
@@ -71,7 +70,7 @@ Check(gameID, playerAddress, Matching Picked Number)
 
 
 
-Conclusion
+##Conclusion
 
 The goal of this lottery is to run a completely decentralized system which creates randomness based on user submission. By leveraging the anonymity of the lottery numbers submitted, a system can perform a calculation on these numbers and determine the winner without any bias. 
 
