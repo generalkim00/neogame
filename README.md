@@ -3,7 +3,7 @@ For NEO Blockchain game dev competition
 
 ## Decentralized Lottery
 
-Our lottery is different than other lottery systems as it is impossible to manipulate because no one knows the numbers entered, preventing one from rigging the outcome to select a winning number. This is possible by breaking the lottery into 2 parts. The first part users select a number and submit a hash of this number along with other data to the block chain using asymmetric encryption. Second, their selected numbers are submitted to the chain unencrypted and used to generate a winning number using an open source algorithm and randomness derived from user input. This process will be known as "Asymmentropy" as it uses "Asymmetric encryption" and the "Entropy" of user input for a truly random and decentralized selection process. 
+This decentralized lottery is different than other lottery systems as it is impossible to manipulate because no one knows the numbers entered, preventing one from rigging the outcome to select a winning number. This is possible by breaking the lottery into 2 parts. The first part users select a number and submit a hash of this number along with other data to the block chain using asymmetric encryption. Second, their selected numbers are submitted to the chain unencrypted and used to generate a winning number using an open source algorithm and randomness derived from user input. This process will be known as "Asymmentropy" as it uses "Asymmetric encryption" and the "Entropy" of user input for a truly random and decentralized selection process. 
 
 
 ### Abstract
