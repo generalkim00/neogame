@@ -78,3 +78,9 @@ The goal of this lottery is to run a completely decentralized system which creat
 
 
 
+
+### Credits
+
+Thank you to Neunity @ https://github.com/norchain/Neunity for providing the test environment for running the lottery smartcontract. We could not have completed our development of the smart contract without your framework.  
+
+
