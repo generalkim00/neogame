@@ -81,6 +81,6 @@ The goal of this lottery is to run a completely decentralized system which creat
 
 ### Credits
 
-Thank you to Neunity @ https://github.com/norchain/Neunity for providing the test environment for running the lottery smart contract. We could not have completed our development of the smart contract without your framework. Also thanks [dprat0821](https://github.com/dprat0821) for overnights discussion to make Asymmentropy happen.
+Thank you to Neunity @ https://github.com/norchain/Neunity for providing the test environment for running the lottery smart contract. We could not have completed our development of the smart contract without your framework. Also thanks [dprat0821](https://github.com/dprat0821) for overnights discussion to make Asymmentropy happen. Hereby authorize him to translate the term "Asymmentropy" to Chinese language "非对称熵".
 
 
