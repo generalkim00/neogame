@@ -1,5 +1,4 @@
 # A Blockchain Lottery with TRUE Randomness
-For NEO Blockchain game dev competition
 
 ## Asymmentropy
 
